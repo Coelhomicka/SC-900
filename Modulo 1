@@ -1,0 +1,103 @@
+Proteção completa utiliza a proteção de ponta a ponta, usa uma abordagem em camadas para proteger.
+
+    - Segurança fisica ( Proteção dos ativos fisicos, como servidores, data center, inclui medidads de acesso restrito com formas de autenticação)
+            - Identidade e Acesso ( Identificação, e autorização )
+
+                - Perimetro ( Protege o perimetro da rede, firewalls, gateways de Segurança )
+
+                      - Redes ( são aplicadas medidas de segurança, monitoramento, implementação de politicas ) 
+
+                            - Computação ( atualizações de segurança, implementações de politicas como softwares não autorizados ) 
+
+                                  - Aplicativos ( proteger aplicativos e softwares utilizados, t4estes de segurança, vulnerabilidades )
+
+                                        - Dados ( criptografia dos dados, visa proteger a Disponibilidade,Integridade,Confiabilidade. ) 
+________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+Tríade CIA  (Confiabilidade, Integridade, Disponibilidade)  - base da segurança cibernetica
+
+   Confidencialidade- garantir  que as informações só sejam acessadas pelas pessoas autorizadas 
+
+
+    Integridade- Visa garantir a integridade dos dados, garantir que eles não sejam alterados 
+
+
+    Disponibilidade - Visa permitir que os serviços estejam disponiveis quando necessario, como redundancia. 
+
+__________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+___________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+ Modelo de Confiança Zero - 
+
+exige uma erificação rigorosa, é baseaddo em 6 pilares fundamentais : 
+
+   *   Verificação Explicita e Continua ( Sempre autenticar e autorizar com base em todos os pontos de dados disponíveis.)                                                    
+
+   * Usar o acesso com privilégios mínimos (    Limite o acesso do usuário com JIT/JEA (Just-In-Time e Just-Enough-Access), políticas adaptáveis baseadas em risco e proteção de dados. )
+
+  *  Pressupor a violação    ( Minimize o raio de alcance e segmente o acesso. Verifique a criptografia de ponta a ponta e use a análise para obter visibilidade, promover a detecção de ameaças e melhorar as defesas. ) 
+_____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+ Criptografia -
+
+
+    *  Simétrica : Envolve o uso de uma unica chave para cifrar e decifrar os daods, tanto o destinatario quanto o remetente usam a mesma chave. ( adequado para grandes volumes de dados )
+
+    * Assimétrica :  Utiliza um par de chaves distintas, uma chave publica e uma privada.
+
+                      /////////////////////////////////////////////////////////////// ---- ////////////////////////////
+
+    Criptografia de dados em repouso : Os dados são criptografados antes de serem gravados em dispositivos de armazenamento,
+                                       como discos rígidos, bancos de dados ou servidores.  Isso ajuda a garantir que,
+                                       mesmo se alguém obtiver acesso físico aos dispositivos de armazenamento, 
+                                       os dados permaneçam inacessíveis sem a chave de descriptografia correta.
+
+
+    Criptografia de dados em Trnasito :  Durante a transmissão, os dados são criptografados para evitar que terceiros interceptem ou modifiquem as informações.
+                                         Isso é comumente usado em conexões seguras da web (por exemplo, HTTPS) e em redes privadas virtuais (VPNs).
+
+
+    Criptografia de doads em uso :      Também conhecida como criptografia homomórfica,
+                                        refere-se à capacidade de realizar operações em dados criptografados sem descriptografá-los primeiro
+
+
+________________________________________________________________________________________________________________________________________________________________________________________
+________________________________________________________________________________________________________________________________________________________________________________________
+
+      Hash -  O hash usa um algoritmo para converter o texto original em um valor de hash exclsivo de comprimento fixo
+
+
+ Em termo simples é uma sequencia de carcteres geradas usando o algoritmo de hash, sequencia de caracteres fixas independente do valor de entrada.
+
+SHA Security Hash Algoritm
+__________________________________________________________________________________________________________________________________________________________________________________________
+__________________________________________________________________________________________________________________________________________________________________________________________
+
+Conceitos de conformidade -
+
+
+*  residencia de dados =  os regulamentos regem os locais fisicos onde os dados podem ser armazenados e 
+                          como e quando podem ser transferidos processados  ou acessados internacionalmente 
+
+*  soberania de dados =  os dados, especialmente dados pessoais, estão sujeito as leis e regulamentos do país/região em que são fisicamente coletados, mantidos ou processados
+
+*  privacidade de dados =  Notificar e ser transparente sobre a coleta, processamento, 
+                          uso e compartilhamento de dados pessoais são principios fundamentais das leis e regulamentos de privacidade
+
+_______________________________________________________________________________________________________________________________________________________________________________________________
+________________________________________________________________________________________________________________________________________________________________________________________________
+
+autenticação = credencial
+
+autorização = nivel de acesso 
+_____________________________________________________________________________________________________________________________________________________
+________________________________________________________________________________________________________________________________________________________________
+
+Identidade como perimetro de segurança primario - 
+
+Usuarios
+Apliocativo
+Dispositob
+
